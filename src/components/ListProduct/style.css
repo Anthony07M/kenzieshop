@@ -1,0 +1,10 @@
+.container-list-produtcs{
+    display: flex;
+    justify-content: center;
+}
+@media(min-width: 700px){
+    .container-list-produtcs{
+        flex-direction: row;
+        
+    }
+}

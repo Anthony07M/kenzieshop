@@ -1,0 +1,81 @@
+header div {
+    padding: 0px;
+}
+
+
+.MuiToolbar-root{
+    width: 100%;
+    justify-content: space-between;
+    padding: 0x;
+}
+.MuiToolbar-root .MuiToolbar-dense{
+    padding: 0px;
+}
+
+.MuiToolbar-root h5{ 
+   margin-left: 0.75rem;
+    font-size: 1rem;
+}
+
+.MuiToolbar-root .div-Links{
+    width: 200px;
+    font-size: 0.80rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* 
+.MuiToolbar-root {
+
+    position: relative;
+    left: 7px;
+    font-size: 0.75rem;
+    opacity: 0.9;
+}
+ */
+.MuiBadge-colorSecondary{
+    position: relative;
+    top: 17rem;
+}
+
+
+.MuiToolbar-root .div-Links a{
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-bottom: 2px solid transparent;
+    color: #fff;
+}
+.div-Links a{
+    margin: 0px;
+}
+.div-Links span:nth-child(1){
+    position: relative;
+    top: 0px;
+    left: 4px;
+    font-size: 0.75rem;
+    opacity: 0.9;
+}
+
+
+.MuiToolbar-root .div-Links a svg{
+    margin-right: 2px;
+} 
+.MuiToolbar-root .div-Links a:hover{
+    border-bottom: 2px solid  #f50057;
+    color: #fff;
+}
+
+
+header .MuiToolbar-dense { padding: 0px;}
+
+
+@media (min-width: 700px){
+    .MuiToolbar-root h5{
+        margin-left: 2rem;
+    }
+    .MuiToolbar-root .div-Links{
+        margin-right: 2rem;
+    }
+}

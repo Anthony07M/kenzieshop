@@ -1,0 +1,40 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div-container-product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 280px;
+    height: 350px;
+    margin: 10px;
+    margin-bottom: 25px;
+}
+
+.div-container-product span{
+    width: 100%;
+    text-align: center;
+}
+.div-container-product span img{
+    width: 196px;
+    height: 196px;
+}
+.div-container-product .span-price{
+    color: #208620cc;
+    font-weight: bold;
+}
+
+@media (min-width: 700px){
+    .container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}

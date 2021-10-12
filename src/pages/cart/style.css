@@ -1,0 +1,17 @@
+.container-page-cart{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+@media (min-width: 700px){
+    .container-page-cart{
+        flex-direction: row-reverse;
+    }
+    .container-page-cart .container-details-venda {
+        border: 1px solid;
+        width: 350px;
+        height:180px;
+        margin-right: 3rem;
+    }
+}
